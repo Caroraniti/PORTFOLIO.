@@ -429,12 +429,12 @@ i{
 }
 
 .contacto-redes :hover {
-    color: violet;
+    color:  rgb(112, 3, 112);
 }
 
 .contacto-redes :hover i{
     color: white;
-    background-color: violet;
+    background-color: rgb(112, 3, 112);
 }
 
 /** seccion Formulario **/
@@ -498,7 +498,7 @@ i{
 }
 
 button{
-    background-color: rgb(240, 178, 240);
+    background-color:  rgb(112, 3, 112);
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 10px;
