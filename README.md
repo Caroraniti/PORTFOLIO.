@@ -8,7 +8,7 @@ Este es mi primer proyecto personal  como alumna de ADA. Van a encontrar todos l
 
 
 
-Tecnologia utilizada hasta el momento:
+Tecnologia utilizada:
 
 - HTML
 - CSS (Flexbox y Responsive)
