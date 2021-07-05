@@ -2,21 +2,23 @@
 Mi primer trabajo practico hecho con HTML y Css
 
 
-Portfolio de  Carolina  🤍
+Portfolio.
 
-Este es mi primer proyecto personal  como alumna de ADA. En dicho proyectto, van a encontrar todos lo aprendido hasta el momento, como futura Desarrolladora Front-End.
+Este es mi primer proyecto personal  como alumna de ADA. Van a encontrar todos lo aprendido hasta el momento, como futura Desarrolladora Front-End.
 
 
 
-Lo aprendido: 
+Tecnologia utilizada hasta el momento:
 
 - HTML
-- CSS
--  RESPONSIVE
+- CSS (Flexbox y Responsive)
 
 
-Si estan interesados en mi portafolio, se los dejo a continuacion:
+Si estan interesados en mirar mi portfolio, se los dejo a continuacion:
 
 https://caroraniti.github.io/PORTTFOLIO./
 
 
+Muchas gracias por la visita.
+
+Con 🤍 Carolina.
