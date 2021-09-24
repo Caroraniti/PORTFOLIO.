@@ -16,7 +16,7 @@ Tecnologia utilizada:
 
 Si estan interesados en mirar mi portfolio, se los dejo a continuacion:
 
- https://caroraniti.github.io/PORTFOLIO./
+  https://caroraniti.github.io/PORTFOLIO./
 
 
 Muchas gracias por la visita.
