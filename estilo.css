@@ -1,13 +1,17 @@
 
 body {
+    /* innecesario */
     height: 100%;
     margin: 0;
+    /* innecesario, no tiene padding el body */
     padding: 0;
     font-family: 'Montserrat', sans-serif;   
+    /* innecesario, el color por defecto es blanco */
     background-color: white;
 }
 
 .barra-navegacion {
+    /* innecesario, ya es blanco por defecto */
     background-color: rgb(255, 255, 255);
     padding-top: 25px;
     padding-bottom: 25px;
@@ -22,8 +26,10 @@ body {
 
 
 .contenedor-inicio {
+    /* innecesario */
     display: inline-block;
     margin-right: 60px;
+    /* no sirve de nada esto si el elemento no tiene ademas display: flex */
     justify-content: flex-end;
 }
 
@@ -47,6 +53,7 @@ a:hover{
 }
 
 .links:focus {
+    /* no saques el outline sin estar segura! esto hace que tu boton de contacto no tenga outline */
     outline: none;
     border: solid 1px violet;
     border-radius: 5px;
@@ -64,6 +71,7 @@ a:hover{
 
 .portada {
     background-color: whitesmoke;
+    /* innecesario, ya tiene width 100% por defecto */
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -91,6 +99,7 @@ a:hover{
 }
 
 .texto-presentacion{
+    /* no funciona esta orden si el elemento no tiene ademas display flex */
     flex-direction: column;
     padding: 50px;
 }
@@ -109,6 +118,8 @@ a:hover{
 
 
 img{
+    /* con esta orden **todas** las imagenes de tu TP van a medir 500 px!!!
+    ojo con esto, siempre es mejor dar esta orden a una clase */
     width: 500px;
     height: 500px;
 }
@@ -161,7 +172,7 @@ img{
     color: violet;
 }
 
-
+/* todos estos elementos deberian tener la misma clase */
 .html5{
     width: 70px;
     height: 70px;
@@ -232,6 +243,7 @@ h1 {
     text-align: center;
     font-size: 20px;
     line-height: 1.4;
+    /* innecesario */
     width: 100%;
 }
 
@@ -267,10 +279,13 @@ h1 {
     width: 270px;
     height: 270px;
     text-align: center;
+    /* esta orden tiene un error, y no se aplica */
     margin: 1opx auto;
+    /* innecesario */
     display: block;
 }
 
+/* todos estos elementos deberian tener la misma clase */
 .generador-memes {
     width: 270px;
     height: 270px;
@@ -445,6 +460,7 @@ i{
 
 .nombre-apellido{
     display: flex;
+    /* innecesario, es el estilo por defecto */
     flex-direction: row;
     justify-content: space-between;
 }
@@ -512,6 +528,7 @@ button{
     border-style: none;
 }
 
+/* nunca elimines el outline de tus elementos a menos que les pongas una alternativa */
 input{
     outline: none;
     }
@@ -529,6 +546,7 @@ button{
 
 
 @media (max-width:375px){
+    /* este elemento solo se va a ocultar en resoluciones menores a 375px! */
     .barra-navegacion{
         width: 100%;
         display: none;
@@ -701,6 +719,7 @@ button{
 footer{
     display: flex;
     flex-direction: column; 
+    /* innecesario, el footer no tiene margen por defecto */
     margin: 0;
    
 }
